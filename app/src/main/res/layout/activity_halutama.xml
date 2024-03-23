@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halutama">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="144dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="589dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/apk1" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:text="Beach Buggy Racing"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="169dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginBottom="1dp"
+            android:text="Berkendaralah ke dunia balap kart off-road yang penuh aksi dan kejutan. Berpacu dengan pembalap saingan, masing-masing dengan kepribadian unik dan kemampuan khusus."
+            app:layout_constraintBottom_toTopOf="@+id/Lihat1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <Button
+            android:id="@+id/Lihat1"
+            android:layout_width="127dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginBottom="584dp"
+            android:text="Lihat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout >
